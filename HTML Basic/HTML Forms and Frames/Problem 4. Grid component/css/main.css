@@ -1,0 +1,60 @@
+.main-table{
+  border-collapse: collapse;
+}
+.title td{
+    background-color: rgb(231, 233, 235);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: Helvetica;
+    font-size: 11px;
+    padding: 5px;
+}
+.id, .name, .price, .quantity, .stock, .discount{
+  border: 1px solid darkgray;
+  padding: 5px;
+  font-family: Helvetica;
+  font-size: 12px;
+}
+.nav{
+  background-color: rgb(231, 233, 235);
+}
+.name{
+  width: 250px;
+}
+.price, .quantity, .stock{
+  width: 150px;
+}
+.id input{
+  width: 30px;
+}
+.price input, .quantity input, .stock input{
+  width: 100px;
+}
+.nav input[name=button]{
+  width: 20px;
+  height: 20px;
+
+}
+.footer td {
+     background-color: rgb(231, 233, 235);
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+}
+input[name=page-number]{
+  border: 0;
+  background-color: rgb(231, 233, 235);
+  padding: 1px;
+}
+ .footer input[name=button]{
+   width: 15px;
+   height: 15px;
+  background-color: rgb(241, 243, 245);
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  margin-top: 5px;
+ }
+ .footer span{
+   font-family: Helvetica;
+   font-size: 11px;
+   margin-left: 10px;
+ }

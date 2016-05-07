@@ -1,0 +1,74 @@
+.description{
+  width: 200px;
+  border: 1px solid darkgray;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  padding: 5px;
+}
+.input{
+  width: 330px;
+  border: 1px solid darkgray;
+}
+.registrarion-form{
+  border-collapse: collapse;
+}
+.address-input{
+  width: 80%;
+  height: 60px;
+}
+.state{
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  border-right: 1px solid darkgray;
+  border-left: 1px solid darkgray;
+}
+.starting-date{
+  font-size: 18px;
+}
+.submit-registration{
+  border: 1px solid darkgray;
+  background-color: skyblue;
+  text-align: center;
+  padding: 5px;
+}
+input, textarea{
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+}
+input{
+  width: 90%;
+}
+input[name=city]{
+  width: 62%;
+}
+input[name=state]{
+  width: 15%
+}
+input[name=zip-postal]{
+  width: 30%;
+}
+input[name=country-code], input[name=area-code]{
+  width: 15%;
+}
+input[name=number]{
+  width: 50%;
+}
+input[name=month], input[name=day]{
+  width: 10%;
+}
+input[name=year]{
+  width: 20%;
+}
+input[type=radio]{
+  width: 10%;
+}
+input[type=submit], input[type=reset]{
+  width: auto;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}

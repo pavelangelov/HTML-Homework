@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+    <title>Registration form</title>
+  </head>
+  <body>
+    <section>
+      <form>
+        <table class="registrarion-form">
+          <tr>
+            <td class="description">
+              Last Name
+            </td>
+            <td class="input">
+              <input type="text" name="name" placeholder="Last Name">
+            </td>
+          </tr>
+          <tr>
+            <td class="description">
+              First Name
+            </td>
+            <td class="input">
+              <input type="text" name="name" value="" placeholder="First Name">
+            </td>
+          </tr>
+          <tr>
+            <td class="description">
+              Address
+            </td>
+            <td class="input">
+              <textarea class="address-input"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td class="description">
+              City
+            </td>
+            <td class="input">
+              <input type="text" name="city" value="" placeholder="City">
+              <span class="state">State</span>
+              <input type="number" name="state" value="">
+            </td>
+          </tr>
+          <tr>
+            <td class="description">
+              Zip/Postal Code
+            </td>
+            <td class="input">
+              <input type="number" name="zip-postal" value="">
+            </td>
+          </tr>
+          <tr>
+            <td class="description">
+              Country
+            </td>
+            <td class="input">
+              <select class="country" name="">
+                <option value="">Bulgaria</option>
+                <option value="">Germany</option>
+                <option value="">France</option>
+                <option value="">Spain</option>
+                <option value="">United Kingdom</option>
+                <option value="">Other</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="description">
+              Phone(country code, area code, number)
+            </td>
+            <td class="input">
+              (+
+              <input type="text" name="country-code" value="359">
+              )
+              <input type="text" name="area-code" placeholder="88">
+              -
+              <input type="text" name="number" placeholder="8888888">
+            </td>
+          </tr>
+          <tr>
+            <td class="description">
+              E-mail
+            </td>
+            <td class="input">
+              <input type="email" value="" placeholder="username@example.com">
+            </td>
+          </tr>
+          <tr>
+            <td class="description">
+              Birth date
+            </td>
+            <td class="input">
+              Month
+              <input type="number" name="month" placeholder="1">
+              Day
+              <input type="number" name="day" placeholder="1">
+              Year (4 digit)
+              <input type="number" name="year" placeholder="1901">
+            </td>
+          </tr>
+          <tr>
+            <td class="description">
+              Gender
+            </td>
+            <td class="input">
+              <select class="gender">
+                <option value="male">Male</option>
+                <option value="Female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="description">
+              Starting date
+            </td>
+            <td class="input">
+              <input type="radio" name="starting-date" value=""><span class="starting-date">Spring 2016</span>
+              <input type="radio" name="starting-date" value=""><span class="starting-date">Summer 2016</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="description">
+              Comments/Questions
+            </td>
+            <td class="input">
+              <textarea name="comments-questions" rows="8" cols="40">Please send me more information about the loging
+              </textarea>
+            </td>
+          </tr>
+          <tr>
+            <td class="submit-registration" colspan="2">
+              <input type="submit" name="name" value="Submit">
+              <input type="reset" name="name" value="Clear this form">
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>
+  </body>
+</html>

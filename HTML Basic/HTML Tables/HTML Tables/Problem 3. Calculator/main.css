@@ -1,0 +1,31 @@
+.calculator {
+  width: 250px;
+  height: 250px;
+}
+.first{
+  padding: 0 !important;
+    margin: 0 !important;
+
+}
+.textbox {
+  width: 236px;
+  height: 50px;
+  text-align: right;
+  font-size: 24px;
+  color: #3DBAE3;
+  background-color: #C4E7F2;
+  border: 1px solid #048DBA;
+}
+.button {
+  float: left;
+  width: 60px;
+  height: 50px;
+  font-size: 24px;
+  color: #3DBAE3;
+  background-color: #C4E7F2;
+  border: 1px solid #048DBA;
+}
+.custumeStyle{
+  width: 120px;
+  height: 50px;
+}

@@ -1,0 +1,35 @@
+a {
+  font-size: 24px;
+  font-family: Consolas;
+  text-align: center;
+}
+th {
+  text-align: center;
+  border-bottom: 2px solid darkgray;
+}
+img{
+  width: 140px;
+  height: 80px;
+}
+fieldset{
+  width: 300px;
+}
+input[type=range]{
+  width: 200px;
+}
+.main-table{
+  border: 2px solid darkgray;
+  border-radius: 10px;
+}
+.range-table{
+  font-size: 22px;
+  font-family: Consolas;
+}
+.notebook-item{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.notebook-tables{
+  border: 2px solid darkgray;
+  border-radius: 5px;
+}

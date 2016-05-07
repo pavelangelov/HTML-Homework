@@ -1,0 +1,22 @@
+table{
+  border-collapse: collapse;
+}
+td,th {
+  border: 1px solid black;
+}
+input[type=number]{
+  width: 40px;
+  border: 0;
+}
+input[type=text]{
+  width: 80px;
+  border: 0;
+}
+input[name=faculty-number]{
+  width: 120px;
+  border: 0;
+}
+input[name=total]{
+  width: 40px;
+  border: 0;
+}

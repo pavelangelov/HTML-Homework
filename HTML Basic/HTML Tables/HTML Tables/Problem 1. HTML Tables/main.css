@@ -1,0 +1,8 @@
+.nested-table {
+  border: 1px outset lightgray;
+}
+
+.nested-table td {
+  text-align: center;
+  border-style: inset;
+}
